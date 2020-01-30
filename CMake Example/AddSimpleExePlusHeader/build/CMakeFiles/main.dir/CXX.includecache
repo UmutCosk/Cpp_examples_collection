@@ -1,0 +1,22 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+../include/help_functions.h
+math.h
+-
+iostream
+-
+vector
+-
+
+/home/umut/Desktop/Übungen/src/main.cpp
+iostream
+-
+help_functions.h
+/home/umut/Desktop/Übungen/src/help_functions.h
+

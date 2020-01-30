@@ -1,0 +1,18 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/home/umut/Documents/Projekte/Cpp_examples_collection/Functional Programming/src/main.cpp
+iostream
+-
+iterator
+-
+algorithm
+-
+vector
+-
+

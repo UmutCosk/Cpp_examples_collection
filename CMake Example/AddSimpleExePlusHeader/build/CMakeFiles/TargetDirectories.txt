@@ -1,0 +1,3 @@
+/home/umut/Desktop/Übungen/build/CMakeFiles/rebuild_cache.dir
+/home/umut/Desktop/Übungen/build/CMakeFiles/edit_cache.dir
+/home/umut/Desktop/Übungen/build/CMakeFiles/main.dir
