@@ -1,4 +1,4 @@
-# Install script for directory: /home/umut/Schreibtisch/UKF
+# Install script for directory: /home/umut/Dokumente/Projekte/Cpp_examples_collection/CMake Example/Complex Structure
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)
@@ -32,10 +32,15 @@ if(NOT DEFINED CMAKE_INSTALL_SO_NO_EXE)
   set(CMAKE_INSTALL_SO_NO_EXE "1")
 endif()
 
+# Is this installation the result of a crosscompile?
+if(NOT DEFINED CMAKE_CROSSCOMPILING)
+  set(CMAKE_CROSSCOMPILING "FALSE")
+endif()
+
 if(NOT CMAKE_INSTALL_LOCAL_ONLY)
   # Include the install script for each subdirectory.
-  include("/home/umut/Schreibtisch/UKF/build/say_hello/cmake_install.cmake")
-  include("/home/umut/Schreibtisch/UKF/build/test/cmake_install.cmake")
+  include("/home/umut/Dokumente/Projekte/Cpp_examples_collection/CMake Example/Complex Structure/build/say_hello/cmake_install.cmake")
+  include("/home/umut/Dokumente/Projekte/Cpp_examples_collection/CMake Example/Complex Structure/build/test/cmake_install.cmake")
 
 endif()
 
@@ -47,5 +52,5 @@ endif()
 
 string(REPLACE ";" "\n" CMAKE_INSTALL_MANIFEST_CONTENT
        "${CMAKE_INSTALL_MANIFEST_FILES}")
-file(WRITE "/home/umut/Schreibtisch/UKF/build/${CMAKE_INSTALL_MANIFEST}"
+file(WRITE "/home/umut/Dokumente/Projekte/Cpp_examples_collection/CMake Example/Complex Structure/build/${CMAKE_INSTALL_MANIFEST}"
      "${CMAKE_INSTALL_MANIFEST_CONTENT}")
